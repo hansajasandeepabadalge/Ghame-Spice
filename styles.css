@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 50px;
+    align-items: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.hero-section {
+    background-image: url('spices-background.jpg'); /* Use a background image of spices */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: white;
+    padding: 0 300px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin-bottom: 20px;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    
+}
+
+p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.cta-button {
+    background-color: orange;
+    padding: 20px 55px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    border-radius: 60px;
+}
+
+.cta-button:hover {
+    background-color: rgb(199, 150, 13);
+}
