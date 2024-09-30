@@ -12,15 +12,25 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 50px;
+    padding: 30px 100px;
     position: fixed;
     width: 100%;
     top: 0;
     z-index: 1000;
 }
 
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    border-radius: 20px;
+}
+
 .logo img {
-    height: 50px;
+    height: 60px;
 }
 
 .nav-links {
@@ -58,17 +68,22 @@ header {
 .hero h1 {
     font-size: 4rem;
     font-weight: 900;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
 }
 
 .hero p {
     font-size: 1.2rem;
-    margin-bottom: 40px;
+}
+
+.subhero {
+    margin-bottom: 50px;
+    width: 70%;
 }
 
 .cta-button {
     background-color: #FF6347;
     color: #fff;
+    margin-top: 50px;
     padding: 15px 30px;
     text-decoration: none;
     font-weight: bold;
